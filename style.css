@@ -1,0 +1,79 @@
+title {
+  font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.banner h1 {
+  font-size: 38px;
+  font-family: 'Familjen Grotesk', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Familjen Grotesk', sans-serif;
+  font-weight: italic;
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  display: list-item;
+  list-style-type: none;
+  text-align: -webkit-match-parent;
+  text-align: center;
+}
+
+.banner {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F13ubhk3x0yr61.jpg&f=1&nofb=1&ipt=9f71b98324ca9259384e87248c4d3a7f7bab0ff04a5fd8bad6ea1a8f0202a651&ipo=images);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  display: block;
+  margin: 8px;
+  text-align: center;
+}
+
+.video {
+  background-image: linear-gradient(to bottom, #e1b779,#e1b779);
+  color: #494949;
+  text-align: center;
+}
+
+.button {
+  background-color: #e1b779;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #be6c56;
+  color: white;
+}
+
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
